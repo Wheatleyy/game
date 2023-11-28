@@ -34,3 +34,16 @@ For example, if you have 5 3 3 5 3 at the end of your turn, you may select row 3
 Bonus: At the end of the game, you get a bonus of 72 points if the total score is 135 or higher.
 
 NOTE: Code that does not compile will adversely affect your grade.
+
+## Simplified explanation
+You have 5 numbers that are randomly generated at first.
+
+Each attempt you select which numbers you want to keep, those stay in their positions and the rest are randomly rolled again.
+
+This is an attempt.
+
+Each turn is 3 attempts.
+
+Then at the end of each turn you select which number you want this turn to count towards.
+
+The score for the turn is N * amount of time N is among those 5 numbers, where N is the number you chose and each of those can be used once
